@@ -10,6 +10,18 @@ Because this is an academic project, we intentionally used two models instead of
 
 The focus is on learning, experimentation, and clear interpretation of results rather than building a production-ready system.
 
+## Model Results
+The two models used in this project and their test accuracies are:
+
+| Model | Accuracy |
+| --- | --- |
+| Logistic Regression (Scaled + Balanced) | 0.5285 (52.85%) |
+| Decision Tree (Tuned + Balanced) | 0.6253 (62.53%) |
+
+Decision Tree achieved the better result in this experiment.
+
+These values are from the notebook evaluation run and are reported for academic comparison purposes.
+
 ## Project Objective
 - Analyze water quality features from a labeled dataset
 - Train and evaluate two ML models for potability prediction
